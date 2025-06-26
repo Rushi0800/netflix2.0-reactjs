@@ -1,46 +1,63 @@
-# Getting Started with Create React App and Redux
+📺 Netflix 2.0 Clone
+A full-stack, fully responsive streaming platform inspired by Netflix. Built using Next.js, Tailwind CSS, NextAuth.js, TMDB API, and Recoil, this application supports dynamic movie browsing, secure Google authentication, and profile-based plan selection.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+🚀 Features
+🔐 Google OAuth Login with NextAuth.js
 
-## Available Scripts
+🎞️ Dynamic Movie Sections powered by TMDB API
 
-In the project directory, you can run:
+🖼️ Hero Movie Banner with description and call-to-action
 
-### `npm start`
+🧩 Recoil-based modal for movie previews
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📱 Fully responsive UI styled with Tailwind CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🧾 Subscription Plans UI (Basic, Standard, Premium)
 
-### `npm test`
+📸 Output Screenshots
+![image](https://github.com/user-attachments/assets/fa33e75e-adc2-4ace-8d13-31331e96da65)
+![image](https://github.com/user-attachments/assets/2d4bc625-aad9-40ff-94cb-b4519b02b42f)
+![image](https://github.com/user-attachments/assets/f3a983ca-7677-44ec-9211-d8d53dbe11ae)
+![image](https://github.com/user-attachments/assets/65fee24f-0221-4dda-ae0b-b2f0458b9cc5)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+🖥️ Sign In Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users can log in securely using Google authentication or choose to sign up with email and password.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🎬 Landing Page with Hero Movie
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The homepage features a hero banner showcasing a highlighted movie, along with Netflix-style scrollable rows of categorized content.
 
-### `npm run eject`
+👤 Edit Profile & Plan Selection
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Users can manage their subscription plan visually from this dashboard, displaying pricing and profile avatar.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📧 Membership Invitation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+On visiting the app for the first time, users are prompted to enter their email to create or restart their membership.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🛠 Tech Stack
+Frontend: React.js, Tailwind CSS
 
-## Learn More
+Authentication: NextAuth.js with Google OAuth
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+State Management: Recoil
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Data Source: TMDB API
+
+
+📂 Installation
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/your-username/netflix-clone.git
+
+# Install dependencies
+cd netflix-clone
+npm install
+
+# Run development server
+npm run dev
+🔑 You'll need to set up .env.local for TMDB API key and NextAuth credentials
